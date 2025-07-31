@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+.container{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+.container h1{
+    text-align: center;
+    font-weight: 500;
+}
+
+.container h2{
+    font-weight: 400;
+}
+
+.container form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.container form input{
+    width: 100%;
+    background-color: white;
+    border-style: groove;
+    padding: 5px 10px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container form div{
+    display: flex;
+    gap: 5px;
+}
+
+.container form div input{
+    width: 100%;
+}
+
+.container form div select{
+    width: 190px;
+    text-align: center;
+    outline: none;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.container form button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 8px 20px;
+    width: 140px;
+    border-radius: 5px;
+    color: white;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.display select{
+    width: 100px;
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+}
+
+.display .list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.display .list .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0 5px;
+    width: 100%;
+    gap: 5px;
+    border: 1px solid dodgerblue;
+}
+
+.display .list .item p:nth-child(1){
+    width: 200px;
+    overflow: hidden;
+    height: 25px;
+}
+
+.display .list .item button{
+    background-color: dodgerblue;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.display .list .item button img{
+    width: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.display > p{
+    font-size: 25px;
+    text-align: end;
+    margin-top: 20px;
+    font-weight: 500;
+}
