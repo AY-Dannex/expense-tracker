@@ -52,7 +52,7 @@ function Tracker(){
     const expenses = filteredExpenses.map((item, index) => 
         <div key={index} className="item">
             <p>{item.title}</p>
-            <p>{item.amount}</p>
+            <p>${item.amount}</p>
             <button onClick={() => handleDelete(index)}>Delete</button>
         </div>);
 
