@@ -84,6 +84,7 @@ body{
     padding: 5px 10px;
     outline: none;
     border: 1px solid dodgerblue;
+    background-color: white;
     border-radius: 5px;
 }
 
