@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from "react"
-import trash from "../public/trash2.svg"
 
 
 function Tracker(){
@@ -54,9 +53,7 @@ function Tracker(){
         <div key={index} className="item">
             <p>{item.title}</p>
             <p>{item.amount}</p>
-            <button onClick={() => handleDelete(index)}>
-                <img src="../public/trash2.svg" alt=""/>
-            </button>
+            <button onClick={() => handleDelete(index)}>Delete</button>
         </div>);
 
     const filterWithCategory = (e) => {
